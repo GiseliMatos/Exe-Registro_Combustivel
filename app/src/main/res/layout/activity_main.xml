@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp" >
+
+    <TextView
+        android:id="@+id/tv_codigoCombustivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cód Combustível" />
+
+    <LinearLayout
+        android:id="@+id/ll_agrupamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_codCombustivel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/bt_pesquisar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="PESQUISAR"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_cidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "Cidade Abastecimento" />
+
+    <EditText
+        android:id="@+id/et_cidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_qtdLitros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade litros" />
+
+    <EditText
+        android:id="@+id/et_qtdLitros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_incluirRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INCLUIR REGISTRO" />
+
+</LinearLayout>
