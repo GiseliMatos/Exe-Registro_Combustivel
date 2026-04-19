@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Exercicio01-RegistroCombustíveis-LinearLayout</string>
+    <string name="pesquisar">PESQUISAR</string>
+    <string name="cod_combustivel">Cód Combustível</string>
+    <string name="cidade_abastecimento">Cidade Abastecimento</string>
+    <string name="incluir_registro">INCLUIR REGISTRO</string>
+    <string name="quantidade_litros">Quantidade litros</string>
 </resources>
